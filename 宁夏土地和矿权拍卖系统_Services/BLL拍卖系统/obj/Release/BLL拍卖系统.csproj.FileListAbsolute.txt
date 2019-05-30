@@ -1,0 +1,7 @@
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\bin\Release\BLL拍卖系统.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\bin\Release\BLL拍卖系统.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\bin\Release\DAL.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\bin\Release\DAL.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\obj\Release\BLL拍卖系统.csprojResolveAssemblyReference.cache
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\obj\Release\BLL拍卖系统.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\BLL拍卖系统\obj\Release\BLL拍卖系统.pdb

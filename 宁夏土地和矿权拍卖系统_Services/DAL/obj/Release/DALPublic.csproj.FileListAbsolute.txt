@@ -1,0 +1,13 @@
+E:\WCF\C# WCF丁昕分布式开发 20161117 上午\C# WCF丁昕分布式开发 20161117 上午\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\bin\Release\DAL.dll
+E:\WCF\C# WCF丁昕分布式开发 20161117 上午\C# WCF丁昕分布式开发 20161117 上午\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\bin\Release\DAL.pdb
+E:\WCF\C# WCF丁昕分布式开发 20161117 上午\C# WCF丁昕分布式开发 20161117 上午\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\obj\Release\DAL.dll
+E:\WCF\C# WCF丁昕分布式开发 20161117 上午\C# WCF丁昕分布式开发 20161117 上午\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\obj\Release\DAL.pdb
+E:\WCF\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\bin\Release\DAL.dll
+E:\WCF\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\bin\Release\DAL.pdb
+E:\WCF\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\obj\Release\DAL.dll
+E:\WCF\广信物流管理系统学生版\WCF物流管理系统_Services201501101545\DAL\obj\Release\DAL.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\DAL\bin\Release\DAL.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\DAL\bin\Release\DAL.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\DAL\obj\Release\DALPublic.csprojResolveAssemblyReference.cache
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\DAL\obj\Release\DAL.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\DAL\obj\Release\DAL.pdb

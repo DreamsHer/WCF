@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="53866967-9e8f-449f-b1af-b37e302ac8ed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.FRM_JiaoYiZiYuanLieBiao.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BLL拍卖系统.disco" MetadataType="Disco" ID="d7f77d2e-b424-4c90-b73d-e3ec932c38d1" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_JiaoYiZiYuanLieBiao.svc?disco" />
+    <MetadataFile FileName="BLL拍卖系统.xsd" MetadataType="Schema" ID="683a9163-8842-466c-bcd8-62e6cf93d101" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_JiaoYiZiYuanLieBiao.svc?xsd=xsd2" />
+    <MetadataFile FileName="BLL拍卖系统1.xsd" MetadataType="Schema" ID="e84d694a-2378-49fb-bf63-295b9bbf862b" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_JiaoYiZiYuanLieBiao.svc?xsd=xsd1" />
+    <MetadataFile FileName="BLL拍卖系统2.xsd" MetadataType="Schema" ID="ba37aeab-b87b-412c-bfdc-02f195ab55bc" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_JiaoYiZiYuanLieBiao.svc?xsd=xsd0" />
+    <MetadataFile FileName="FRM_JiaoYiZiYuanLieBiao.wsdl" MetadataType="Wsdl" ID="63c47c7c-e0e4-40d7-9ee2-61dd876ff40a" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_JiaoYiZiYuanLieBiao.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

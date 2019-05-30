@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BLL拍卖系统.FRM_ChuRangGongGao&quot; /&gt;" bindingType="basicHttpBinding" name="BLL拍卖系统.FRM_ChuRangGongGao" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.FRM_ChuRangGongGao.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BLL拍卖系统.FRM_ChuRangGongGao&quot; contract=&quot;BLLPaiMaiXiTong.FRM_ChuRangGongGao.FRM_ChuRangGongGao&quot; name=&quot;BLL拍卖系统.FRM_ChuRangGongGao&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.FRM_ChuRangGongGao.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BLL拍卖系统.FRM_ChuRangGongGao&quot; contract=&quot;BLLPaiMaiXiTong.FRM_ChuRangGongGao.FRM_ChuRangGongGao&quot; name=&quot;BLL拍卖系统.FRM_ChuRangGongGao&quot; /&gt;" contractName="BLLPaiMaiXiTong.FRM_ChuRangGongGao.FRM_ChuRangGongGao" name="BLL拍卖系统.FRM_ChuRangGongGao" />
+  </endpoints>
+</configurationSnapshot>

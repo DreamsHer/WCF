@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="336134cf-cd45-4aa6-9c99-845f4ad72948" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.Login.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Login.wsdl" MetadataType="Wsdl" ID="879d105b-30aa-40ac-a81e-a3e153ce3a2a" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.Login.svc?wsdl" />
+    <MetadataFile FileName="BLL拍卖系统.xsd" MetadataType="Schema" ID="7276f3ca-68d9-4c4e-a71d-3a40a52103f5" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.Login.svc?xsd=xsd1" />
+    <MetadataFile FileName="BLL拍卖系统1.xsd" MetadataType="Schema" ID="aacca317-da1d-4fb8-9a6e-b2f147666c82" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.Login.svc?xsd=xsd2" />
+    <MetadataFile FileName="BLL拍卖系统2.xsd" MetadataType="Schema" ID="82b3ffdb-c64d-4e42-87dc-fff4f13c6d4d" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.Login.svc?xsd=xsd0" />
+    <MetadataFile FileName="BLL拍卖系统.disco" MetadataType="Disco" ID="09d89621-c2ce-4166-9448-a05f892a6704" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.Login.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

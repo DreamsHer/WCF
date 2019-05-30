@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FRM_XinZengShuJu" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:7254/BLL拍卖系统.FRM_XinZengShuJu.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:7254/BLL拍卖系统.FRM_XinZengShuJu.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:7254/BLL拍卖系统.FRM_XinZengShuJu.svc?xsd=xsd2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuJiaoYiZhuangTai_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuJiaoYiZhuangTai" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuJiaoYiZhuangTai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuJiaoYiZhuangTaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuXingZhengQu_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuXingZhengQu" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuXingZhengQu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuXingZhengQuResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuJiaoYiLeiBie_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuJiaoYiLeiBie" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuJiaoYiLeiBie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuJiaoYiLeiBieResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuShenQingTiSi_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuShenQingTiSi" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuShenQingTiSi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuShenQingTiSiResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuGongGaoLeiXing_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuGongGaoLeiXing" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuGongGaoLeiXing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuGongGaoLeiXingResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuKeHuMingCheng_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuKeHuMingCheng" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuKeHuMingCheng_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuKeHuMingChengResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengGuaPaiShuJu_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengGuaPaiShuJu" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengGuaPaiShuJu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengGuaPaiShuJuResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengGongGaoBiao_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengGongGaoBiao" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengGongGaoBiao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengGongGaoBiaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengKeHuBiao_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengKeHuBiao" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengKeHuBiao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengKeHuBiaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_ChaXunZuiDaGuaPaiDanShu_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChaXunZuiDaGuaPaiDanShu" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_ChaXunZuiDaGuaPaiDanShu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChaXunZuiDaGuaPaiDanShuResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_ChaXunZuiDaGongGaoDanShu_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChaXunZuiDaGongGaoDanShu" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_ChaXunZuiDaGongGaoDanShu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChaXunZuiDaGongGaoDanShuResponse" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuKeHuLeiXing_InputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuKeHuLeiXing" />
+  </wsdl:message>
+  <wsdl:message name="FRM_XinZengShuJu_XinZengShuJuKeHuLeiXing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XinZengShuJuKeHuLeiXingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FRM_XinZengShuJu">
+    <wsdl:operation name="XinZengShuJuJiaoYiZhuangTai">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiZhuangTai" message="tns:FRM_XinZengShuJu_XinZengShuJuJiaoYiZhuangTai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiZhuangTaiResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuJiaoYiZhuangTai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuXingZhengQu">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuXingZhengQu" message="tns:FRM_XinZengShuJu_XinZengShuJuXingZhengQu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuXingZhengQuResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuXingZhengQu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuJiaoYiLeiBie">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiLeiBie" message="tns:FRM_XinZengShuJu_XinZengShuJuJiaoYiLeiBie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiLeiBieResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuJiaoYiLeiBie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuShenQingTiSi">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuShenQingTiSi" message="tns:FRM_XinZengShuJu_XinZengShuJuShenQingTiSi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuShenQingTiSiResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuShenQingTiSi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuGongGaoLeiXing">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuGongGaoLeiXing" message="tns:FRM_XinZengShuJu_XinZengShuJuGongGaoLeiXing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuGongGaoLeiXingResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuGongGaoLeiXing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuKeHuMingCheng">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuMingCheng" message="tns:FRM_XinZengShuJu_XinZengShuJuKeHuMingCheng_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuMingChengResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuKeHuMingCheng_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengGuaPaiShuJu">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengGuaPaiShuJu" message="tns:FRM_XinZengShuJu_XinZengGuaPaiShuJu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengGuaPaiShuJuResponse" message="tns:FRM_XinZengShuJu_XinZengGuaPaiShuJu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengGongGaoBiao">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengGongGaoBiao" message="tns:FRM_XinZengShuJu_XinZengGongGaoBiao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengGongGaoBiaoResponse" message="tns:FRM_XinZengShuJu_XinZengGongGaoBiao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengKeHuBiao">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengKeHuBiao" message="tns:FRM_XinZengShuJu_XinZengKeHuBiao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengKeHuBiaoResponse" message="tns:FRM_XinZengShuJu_XinZengKeHuBiao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChaXunZuiDaGuaPaiDanShu">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGuaPaiDanShu" message="tns:FRM_XinZengShuJu_ChaXunZuiDaGuaPaiDanShu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGuaPaiDanShuResponse" message="tns:FRM_XinZengShuJu_ChaXunZuiDaGuaPaiDanShu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChaXunZuiDaGongGaoDanShu">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGongGaoDanShu" message="tns:FRM_XinZengShuJu_ChaXunZuiDaGongGaoDanShu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGongGaoDanShuResponse" message="tns:FRM_XinZengShuJu_ChaXunZuiDaGongGaoDanShu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuKeHuLeiXing">
+      <wsdl:input wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuLeiXing" message="tns:FRM_XinZengShuJu_XinZengShuJuKeHuLeiXing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuLeiXingResponse" message="tns:FRM_XinZengShuJu_XinZengShuJuKeHuLeiXing_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BLL拍卖系统.FRM_XinZengShuJu" type="tns:FRM_XinZengShuJu">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="XinZengShuJuJiaoYiZhuangTai">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiZhuangTai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuXingZhengQu">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuXingZhengQu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuJiaoYiLeiBie">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuJiaoYiLeiBie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuShenQingTiSi">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuShenQingTiSi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuGongGaoLeiXing">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuGongGaoLeiXing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuKeHuMingCheng">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuMingCheng" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengGuaPaiShuJu">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengGuaPaiShuJu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengGongGaoBiao">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengGongGaoBiao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengKeHuBiao">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengKeHuBiao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChaXunZuiDaGuaPaiDanShu">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGuaPaiDanShu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChaXunZuiDaGongGaoDanShu">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/ChaXunZuiDaGongGaoDanShu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XinZengShuJuKeHuLeiXing">
+      <soap:operation soapAction="http://tempuri.org/FRM_XinZengShuJu/XinZengShuJuKeHuLeiXing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FRM_XinZengShuJu">
+    <wsdl:port name="BLL拍卖系统.FRM_XinZengShuJu" binding="tns:BLL拍卖系统.FRM_XinZengShuJu">
+      <soap:address location="http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.FRM_XinZengShuJu.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YeMa" type="xs:int" />
+        <xs:element minOccurs="0" name="MeiYeShuLiang" type="xs:int" />
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeZongShuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZhengZaiGuaPai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YeMa" type="xs:int" />
+        <xs:element minOccurs="0" name="MeiYeShuLiang" type="xs:int" />
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZhengZaiGuaPaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeZhengZaiGuaPaiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShuZhengZaiGuaPai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShuZhengZaiGuaPaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeZongShuZhengZaiGuaPaiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeGuaPaiGongShi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YeMa" type="xs:int" />
+        <xs:element minOccurs="0" name="MeiYeShuLiang" type="xs:int" />
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeGuaPaiGongShiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeGuaPaiGongShiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShuGuaPaiGongShi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_FenYeZongShuGuaPaiGongShiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_FenYeZongShuGuaPaiGongShiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_XingZhengQu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_WoDeJiaoYi_Load_XingZhengQuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_WoDeJiaoYi_Load_XingZhengQuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJian">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GuaPaiBianHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="GuaPaiQiShiShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="GuaPaiJieZhiShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="TuDiWeiZhi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="KeHuMingCheng" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJianResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJianResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJian_ZongShu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJian_ZongShuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="btnSouSuo_Click_WoDeJiaoYi_DongTaiTiaoJian_ZongShuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnClickChuJai_ShiFouYouBaoZhangXingZhuFang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GuaPaiID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnClickChuJai_ShiFouYouBaoZhangXingZhuFangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="btnClickChuJai_ShiFouYouBaoZhangXingZhuFangResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\宁夏土地和矿权拍卖系统_Services.dll.config
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\宁夏土地和矿权拍卖系统_Services.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\宁夏土地和矿权拍卖系统_Services.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\BLL拍卖系统.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\DAL.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\BLL拍卖系统.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\bin\DAL.pdb
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\obj\Release\宁夏土地和矿权拍卖系统_Services.csprojResolveAssemblyReference.cache
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\obj\Release\宁夏土地和矿权拍卖系统_Services.dll
+C:\Users\成茂运\Desktop\宁夏土地和矿权拍卖系统_Services\宁夏土地和矿权拍卖系统_Services\obj\Release\宁夏土地和矿权拍卖系统_Services.pdb

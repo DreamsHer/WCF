@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FRM_HuoQuBaoZhangJinZhangHao_Load">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GuaPaiID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FRM_HuoQuBaoZhangJinZhangHao_LoadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FRM_HuoQuBaoZhangJinZhangHao_LoadResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnDaYin_Click_InsertShenQingBiao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ShenQingBianHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ShenQingShiJian" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnDaYin_Click_InsertShenQingBiaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="btnDaYin_Click_InsertShenQingBiaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnDaYin_Click_InsertBaoZhengJinBiao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YinXingZhangHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YinXingMingCheng" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZhangHuMing" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="btnDaYin_Click_InsertBaoZhengJinBiaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="btnDaYin_Click_InsertBaoZhengJinBiaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Select_ShengChengBaoZhengJinZhangHao">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Select_ShengChengBaoZhengJinZhangHaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Select_ShengChengBaoZhengJinZhangHaoResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Select_ShengChengBaoZhengJinZhangHao_XinZeng">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BaoZhengJinZhangHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="KaiHuYinXing" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Select_ShengChengBaoZhengJinZhangHao_XinZengResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Select_ShengChengBaoZhengJinZhangHao_XinZengResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

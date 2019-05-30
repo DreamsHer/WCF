@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="XinZengShuJuJiaoYiZhuangTai">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuJiaoYiZhuangTaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuJiaoYiZhuangTaiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuXingZhengQu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuXingZhengQuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuXingZhengQuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuJiaoYiLeiBie">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuJiaoYiLeiBieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuJiaoYiLeiBieResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuShenQingTiSi">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuShenQingTiSiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuShenQingTiSiResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuGongGaoLeiXing">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuGongGaoLeiXingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuGongGaoLeiXingResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuKeHuMingCheng">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuKeHuMingChengResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuKeHuMingChengResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengGuaPaiShuJu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GuaPaiBianHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="JiaoYiFangShi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="JiaoYiLeiBieID" type="xs:int" />
+        <xs:element minOccurs="0" name="JiaoYiZhuangTaiID" type="xs:int" />
+        <xs:element minOccurs="0" name="GuaPaiQiShiShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="GuaPaiJieZhiShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="BaoZhengJinDaoZhangJieZhiShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="DiKuaiMingCheng" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TuDiWeiZhi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="QiShiJia" type="xs:decimal" />
+        <xs:element minOccurs="0" name="ZengFu" type="xs:decimal" />
+        <xs:element minOccurs="0" name="YuFuKuan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BaoZhengJinJinE" type="xs:decimal" />
+        <xs:element minOccurs="0" name="TuDiQuanShuDanWei" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="XingZhengQuID" type="xs:int" />
+        <xs:element minOccurs="0" name="ShiYongQuanMianJi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="JianZhuMianJi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="GuiHuaYongTu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="GuiHuaZhiBiao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ChuRangNianXian" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DiKuaiBeiZhu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RongJiLv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="JianZhuMiDu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LvHuaLv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="JianZhuXianGao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TouZiQiangDu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="XianZhuangTuDiTiaoJian" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ShiFouYouBaoZhangXingZhuFang" type="xs:boolean" />
+        <xs:element minOccurs="0" name="QiShiBaoZhangXingZhuFangBiLi" type="xs:decimal" />
+        <xs:element minOccurs="0" name="ZuiGaoXianJia" type="xs:decimal" />
+        <xs:element minOccurs="0" name="BiLiZengFu" type="xs:decimal" />
+        <xs:element minOccurs="0" name="ShiFouYouFuJiaZiGeShenHeTiaoJian" type="xs:boolean" />
+        <xs:element minOccurs="0" name="GongGaoBeiZhu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ShenQingTiShiID" type="xs:int" />
+        <xs:element minOccurs="0" name="KeHuID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengGuaPaiShuJuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengGuaPaiShuJuResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengGongGaoBiao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GongGaoBianHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BiaoTi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FaBuShiJian" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="GongGaoLeiXingID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengGongGaoBiaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengGongGaoBiaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengKeHuBiao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KeHuLeiXingID" type="xs:int" />
+        <xs:element minOccurs="0" name="KeHuMingCheng" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZhengJianHao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LianXiDiZhi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LianXiRen" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FaRenDaiBiao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YouXiang" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YouZhengBianMa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LianXiDianHua" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ShuZiZhengShuMiMa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ZhengShuShiFouYouXiao" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengKeHuBiaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengKeHuBiaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChaXunZuiDaGuaPaiDanShu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChaXunZuiDaGuaPaiDanShuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChaXunZuiDaGuaPaiDanShuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChaXunZuiDaGongGaoDanShu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChaXunZuiDaGongGaoDanShuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChaXunZuiDaGongGaoDanShuResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuKeHuLeiXing">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XinZengShuJuKeHuLeiXingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XinZengShuJuKeHuLeiXingResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

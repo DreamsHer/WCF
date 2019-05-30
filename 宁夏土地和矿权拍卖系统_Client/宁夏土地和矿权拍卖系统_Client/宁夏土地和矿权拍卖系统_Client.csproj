@@ -1,0 +1,1282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{357973FB-2CF0-41A5-A9F0-EB64A7007E71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>宁夏土地和矿权拍卖系统_Client</RootNamespace>
+    <AssemblyName>宁夏土地和矿权拍卖系统_Client</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="网上交易操作与使用\FRM_XianShiJingJaiTiShi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_XianShiJingJaiTiShi.Designer.cs">
+      <DependentUpon>FRM_XianShiJingJaiTiShi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiJieShuWeiChengJiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiJieShuWeiChengJiao.Designer.cs">
+      <DependentUpon>FRM_GuaPaiJieShuWeiChengJiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="新增界面\FRM_XinZengJieMian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="新增界面\FRM_XinZengJieMian.Designer.cs">
+      <DependentUpon>FRM_XinZengJieMian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="地图浏览\FRM_DiTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="地图浏览\FRM_DiTu.Designer.cs">
+      <DependentUpon>FRM_DiTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.Login\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiJieShuChengJiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiJieShuChengJiao.Designer.cs">
+      <DependentUpon>FRM_GuaPaiJieShuChengJiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_ZhuFangBaoZhangXingBiLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_ZhuFangBaoZhangXingBiLi.Designer.cs">
+      <DependentUpon>FRM_ZhuFangBaoZhangXingBiLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiChengJiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_GuaPaiChengJiao.Designer.cs">
+      <DependentUpon>FRM_GuaPaiChengJiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_XiTongXunWen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_XiTongXunWen.Designer.cs">
+      <DependentUpon>FRM_XiTongXunWen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_JingMaiShenQingShu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_JingMaiShenQingShu.Designer.cs">
+      <DependentUpon>FRM_JingMaiShenQingShu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="地图浏览\FRM_DiTuLiuLan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="地图浏览\FRM_DiTuLiuLan.Designer.cs">
+      <DependentUpon>FRM_DiTuLiuLan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_HuoQuBaoZhangJinZhangHao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_HuoQuBaoZhangJinZhangHao.Designer.cs">
+      <DependentUpon>FRM_HuoQuBaoZhangJinZhangHao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_QiTaGongGao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_QiTaGongGao.Designer.cs">
+      <DependentUpon>FRM_QiTaGongGao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_ShiYongBangZhu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_ShiYongBangZhu.Designer.cs">
+      <DependentUpon>FRM_ShiYongBangZhu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_TianXueJingMaiShenQingShu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_TianXueJingMaiShenQingShu.Designer.cs">
+      <DependentUpon>FRM_TianXueJingMaiShenQingShu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeJiaoYi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeJiaoYi.Designer.cs">
+      <DependentUpon>FRM_WoDeJiaoYi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeShouCang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeShouCang.Designer.cs">
+      <DependentUpon>FRM_WoDeShouCang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_XunZeYinHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_XunZeYinHang.Designer.cs">
+      <DependentUpon>FRM_XunZeYinHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="主界面\FRM_JIaoYiDaTingZhuYe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="主界面\FRM_JIaoYiDaTingZhuYe.Designer.cs">
+      <DependentUpon>FRM_JIaoYiDaTingZhuYe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_JiaoYiZiYuanLieBiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_JiaoYiZiYuanLieBiao.Designer.cs">
+      <DependentUpon>FRM_JiaoYiZiYuanLieBiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_JingMaiFangShi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_JingMaiFangShi.Designer.cs">
+      <DependentUpon>FRM_JingMaiFangShi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_ShenGuoGuiZe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_ShenGuoGuiZe.Designer.cs">
+      <DependentUpon>FRM_ShenGuoGuiZe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_ZhiFuGuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_ZhiFuGuanLi.Designer.cs">
+      <DependentUpon>FRM_ZhiFuGuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_GeRenZiLiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_GeRenZiLiao.Designer.cs">
+      <DependentUpon>FRM_GeRenZiLiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_LianHeShenQingShengMing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_LianHeShenQingShengMing.Designer.cs">
+      <DependentUpon>FRM_LianHeShenQingShengMing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_ZiLiaoXiaZai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_ZiLiaoXiaZai.Designer.cs">
+      <DependentUpon>FRM_ZiLiaoXiaZai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuJiaJiLu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuJiaJiLu.Designer.cs">
+      <DependentUpon>FRM_ChuJiaJiLu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuRangGongGao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuRangGongGao.Designer.cs">
+      <DependentUpon>FRM_ChuRangGongGao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChaKanXianChangTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChaKanXianChangTu.Designer.cs">
+      <DependentUpon>FRM_ChaKanXianChangTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_XiaZaiChuRangWenJian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_XiaZaiChuRangWenJian.Designer.cs">
+      <DependentUpon>FRM_XiaZaiChuRangWenJian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="主界面\FRM_JiaoYiDaTing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="主界面\FRM_JiaoYiDaTing.Designer.cs">
+      <DependentUpon>FRM_JiaoYiDaTing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuRangXuZhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_ChuRangXuZhi.Designer.cs">
+      <DependentUpon>FRM_ChuRangXuZhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_DiKuaiXiangQing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="浏览挂牌信息\FRM_DiKuaiXiangQing.Designer.cs">
+      <DependentUpon>FRM_DiKuaiXiangQing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeWenDang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeWenDang.Designer.cs">
+      <DependentUpon>FRM_WoDeWenDang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeXiaoXi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="界面功能\FRM_WoDeXiaoXi.Designer.cs">
+      <DependentUpon>FRM_WoDeXiaoXi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="主界面\FRM_ZhuChuangTi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="主界面\FRM_ZhuChuangTi.Designer.cs">
+      <DependentUpon>FRM_ZhuChuangTi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_PaiMaiDaTing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网上交易操作与使用\FRM_PaiMaiDaTing.Designer.cs">
+      <DependentUpon>FRM_PaiMaiDaTing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登录\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登录\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_XianShiJingJaiTiShi.resx">
+      <DependentUpon>FRM_XianShiJingJaiTiShi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_GuaPaiJieShuWeiChengJiao.resx">
+      <DependentUpon>FRM_GuaPaiJieShuWeiChengJiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="新增界面\FRM_XinZengJieMian.resx">
+      <DependentUpon>FRM_XinZengJieMian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="地图浏览\FRM_DiTu.resx">
+      <DependentUpon>FRM_DiTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_GuaPaiJieShuChengJiao.resx">
+      <DependentUpon>FRM_GuaPaiJieShuChengJiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_ZhuFangBaoZhangXingBiLi.resx">
+      <DependentUpon>FRM_ZhuFangBaoZhangXingBiLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_GuaPaiChengJiao.resx">
+      <DependentUpon>FRM_GuaPaiChengJiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_XiTongXunWen.resx">
+      <DependentUpon>FRM_XiTongXunWen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="地图浏览\FRM_DiTuLiuLan.resx">
+      <DependentUpon>FRM_DiTuLiuLan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_HuoQuBaoZhangJinZhangHao.resx">
+      <DependentUpon>FRM_HuoQuBaoZhangJinZhangHao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_QiTaGongGao.resx">
+      <DependentUpon>FRM_QiTaGongGao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_JingMaiShenQingShu.resx">
+      <DependentUpon>FRM_JingMaiShenQingShu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_ShiYongBangZhu.resx">
+      <DependentUpon>FRM_ShiYongBangZhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_TianXueJingMaiShenQingShu.resx">
+      <DependentUpon>FRM_TianXueJingMaiShenQingShu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_WoDeJiaoYi.resx">
+      <DependentUpon>FRM_WoDeJiaoYi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_WoDeShouCang.resx">
+      <DependentUpon>FRM_WoDeShouCang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_XunZeYinHang.resx">
+      <DependentUpon>FRM_XunZeYinHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="主界面\FRM_JIaoYiDaTingZhuYe.resx">
+      <DependentUpon>FRM_JIaoYiDaTingZhuYe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_JiaoYiZiYuanLieBiao.resx">
+      <DependentUpon>FRM_JiaoYiZiYuanLieBiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_JingMaiFangShi.resx">
+      <DependentUpon>FRM_JingMaiFangShi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_ShenGuoGuiZe.resx">
+      <DependentUpon>FRM_ShenGuoGuiZe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_XiaZaiChuRangWenJian.resx">
+      <DependentUpon>FRM_XiaZaiChuRangWenJian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_GeRenZiLiao.resx">
+      <DependentUpon>FRM_GeRenZiLiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_ChuJiaJiLu.resx">
+      <DependentUpon>FRM_ChuJiaJiLu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_ChuRangGongGao.resx">
+      <DependentUpon>FRM_ChuRangGongGao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_WoDeXiaoXi.resx">
+      <DependentUpon>FRM_WoDeXiaoXi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="主界面\FRM_ZhuChuangTi.resx">
+      <DependentUpon>FRM_ZhuChuangTi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="主界面\FRM_JiaoYiDaTing.resx">
+      <DependentUpon>FRM_JiaoYiDaTing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_ChuRangXuZhi.resx">
+      <DependentUpon>FRM_ChuRangXuZhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_DiKuaiXiangQing.resx">
+      <DependentUpon>FRM_DiKuaiXiangQing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_WoDeWenDang.resx">
+      <DependentUpon>FRM_WoDeWenDang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_ZhiFuGuanLi.resx">
+      <DependentUpon>FRM_ZhiFuGuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="浏览挂牌信息\FRM_ChaKanXianChangTu.resx">
+      <DependentUpon>FRM_ChaKanXianChangTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_PaiMaiDaTing.resx">
+      <DependentUpon>FRM_PaiMaiDaTing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网上交易操作与使用\FRM_LianHeShenQingShengMing.resx">
+      <DependentUpon>FRM_LianHeShenQingShengMing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="界面功能\FRM_ZiLiaoXiaZai.resx">
+      <DependentUpon>FRM_ZiLiaoXiaZai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登录\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\FRM_ChuJiaJiLu.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\FRM_ChuRangGongGao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\FRM_DiKuaiXiangQing.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\FRM_GeRenZiLiao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\FRM_GuaPaiChengJiao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\FRM_HuoQuBaoZhangJinZhangHao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\FRM_JIaoYiDaTingZhuYe.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\FRM_JiaoYiZiYuanLieBiao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\FRM_JingMaiFangShi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\FRM_JingMaiShenQingShu.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\FRM_LianHeShenQingShengMing.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\FRM_PaiMaiDaTing.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\FRM_QiTaGongGao.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\FRM_ShenGuoGuiZe.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\FRM_TianXueJingMaiShenQingShu.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\FRM_WoDeJiaoYi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\FRM_WoDeShouCang.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\FRM_WoDeWenDang.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\FRM_WoDeXiaoXi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\FRM_XinZengShuJu.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\FRM_XiTongXunWen.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\FRM_XunZeYinHang.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\FRM_ZhiFuGuanLi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\FRM_ZhuChuangTi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\FRM_ZhuFangBaoZhangXingBiLi.wsdl" />
+    <None Include="Service References\BLLPaiMaiXiTong.Login\BLL拍卖系统.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\BLL拍卖系统1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\BLL拍卖系统2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\Login.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\331961-106.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\" />
+    <WCFMetadataStorage Include="Service References\BLLPaiMaiXiTong.Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeShouCang\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_LianHeShenQingShengMing\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ShenGuoGuiZe\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiFangShi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_TianXueJingMaiShenQingShu\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_HuoQuBaoZhangJinZhangHao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XunZeYinHang\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeWenDang\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeJiaoYi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_PaiMaiDaTing\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GeRenZiLiao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhiFuGuanLi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JingMaiShenQingShu\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuFangBaoZhangXingBiLi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_QiTaGongGao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.Login\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XiTongXunWen\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuJiaJiLu\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ChuRangGongGao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_DiKuaiXiangQing\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_ZhuChuangTi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_WoDeXiaoXi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JIaoYiDaTingZhuYe\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_JiaoYiZiYuanLieBiao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_XinZengShuJu\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\BLL拍卖系统.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BLLPaiMaiXiTong.FRM_GuaPaiChengJiao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="17e171d8-e471-47a4-9f7e-bccb1c6a235f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7254/BLL%E6%8B%8D%E5%8D%96%E7%B3%BB%E7%BB%9F.FRM_XunZeYinHang.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BLL拍卖系统.xsd" MetadataType="Schema" ID="f334e50f-ce53-48ca-80c7-7e79fff7f2ef" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_XunZeYinHang.svc?xsd=xsd1" />
+    <MetadataFile FileName="FRM_XunZeYinHang.wsdl" MetadataType="Wsdl" ID="a89db05f-1af5-4b7a-805b-11b32fc9e4c0" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_XunZeYinHang.svc?wsdl" />
+    <MetadataFile FileName="BLL拍卖系统1.xsd" MetadataType="Schema" ID="4b07f29d-d753-4473-bb4a-f3ef06bf1610" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_XunZeYinHang.svc?xsd=xsd2" />
+    <MetadataFile FileName="BLL拍卖系统.disco" MetadataType="Disco" ID="ea185e47-647b-42f6-b646-1e21648ff626" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_XunZeYinHang.svc?disco" />
+    <MetadataFile FileName="BLL拍卖系统2.xsd" MetadataType="Schema" ID="7551a532-a6c8-47ba-90b8-ec64d5912904" SourceId="1" SourceUrl="http://localhost:7254/BLL拍卖系统.FRM_XunZeYinHang.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
